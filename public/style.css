@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*list-style: none;*/
+	text-decoration: none;
+}
+
+.banner {
+	width: 100%;
+	float: left;
+	font-size: 0;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.header {
+	padding: 2% 5%;
+	width: 90%;
+	float: left;
+	color: #fff;
+	position: relative;
+	background-color: #00aff0;
+}
+.header a{
+	color: #fff;
+}
+.con a{
+	color: #00AFF0;
+	font-size: 20px;
+}
+/*.con a:active{
+	color: mediumpurple;
+	
+}*/
+.left {
+	width: 20%;
+	float: left;
+}
+
+.last {
+	float: right;
+	width: 40%;
+}
+
+.header li {
+	float: left;
+	width: 20%;
+	position: fixed
+	list-style: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+#li {
+	height: 20px;
+	margin: 0 auto;
+	float: left;		
+}
+
+#li div{
+	/*clear: both;*/
+
+	width: 130%;
+    background-color: #FFFFFF;
+	color: red;
+	
+	
+			
+}
+a:hover{
+	text-decoration: underline;
+	color: darkslategray;
+}
+#li:hover{	
+	
+	float: left;!important
+	z-index: 1000;
+	/*top:44.2% ;*/
+	display: block;
+}
+#li div:hover{
+	background-color: burlywood;
+}
+.con{
+	float: left;
+	padding: 2% 0;
+	background-color: #e5ecf4;
+	/*width: 90%;*/
+}
+.con dl{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.con h5{
+	font-size: 2rem;
+	color: #00AFF0;
+	width: 100%;
+	float: left;
+	font-weight: 100;
+}
+.con p{
+	font-size: 0.3rem;
+	color: #00AFF0;
+	width: 100%;
+	float: left;
+	padding: 2% 0;
+}
+.con img{
+	border-radius: 50%;
+	width: 45%;
+}
+.unm{
+	width: 90%;
+	float:left ;
+	padding:3% 5%;
+}
+.left1{
+	width: 60%;
+	float: left;
+}
+.left1 h5{
+	font-size: 2.5rem;
+	color: #00AFF0;
+	padding: 2% 0;
+	width: 100%;
+	margin-top: 5%;
+	font-weight: 100;
+}
+.left1 p{
+	line-height: 28px;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+.left1 li{
+	margin-left: 5%;
+	line-height: 28px;
+	font-size: 1.2rem;
+	
+}
+.right{
+	width: 38%;
+	float: right;
+}
+.right h5{
+	font-size: 2rem;
+	color: #00AFF0;
+	padding: 4% 0;
+	font-weight: 100;
+}
+.right p{
+	line-height: 28px;
+	font-size: 1.2rem;
+}
+.right li{
+	margin-left: 5%;
+	line-height: 28px;
+	font-size: 1.2rem;	
+}
+.img img{
+	width: 30%;
+	margin: 1%;
+	float: left;
+	font-size: 0;
+}
+.p{
+	color: #00AFF0;
+	font-size: 0.8rem;
+}
+.left1 dl{
+  width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+.left1 h5{
+	width: 100%;
+	/*float: left;*/
+}
+.left1 p{
+	width: 100%;
+	float: left;
+}
+.left1 a{
+	color: lightblue;
+}
+.left1 dt{
+	float: left;
+	border-radius: 50%;
+	width:15%;
+}
+.left1 dt img{
+	width: 100%;
+	border-radius: 50%;
+}
+.left1 dd{
+	float: right;
+	width:82%;
+	line-height: 28px;
+}
+.img1 img{
+	width: 80%;
+	margin-left: 10%;
+}
+.left2{
+	width: 30%;
+	float: left;
+	line-height: 34px;
+}
+.left2 input{
+	width: 70%;
+	padding: 2%;
+}
+#sub{
+	width: 20%;
+	
+}

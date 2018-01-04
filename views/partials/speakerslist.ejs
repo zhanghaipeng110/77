@@ -1,0 +1,27 @@
+<article class="speakerslist 
+	  <% if(pageID=='home'){%> 
+	                    jumbortron hidder-xs
+	  <%}%>
+	">
+	<% speakers.forEach(function(item){ %>
+		<dl class="<% if(pageID=='home'){%> con<%}else{%> left1 <%}%>">
+			<h5><%= item.title %></h5>
+			<p>
+				<a href="/speakers/<%= item.shortname %>">
+					<%= item.name %>
+				</a>
+			</p>
+			<dt>
+					<img src="/img/<%= item.shortname %>.jpg">
+				</dt>
+			<dd>
+				<p style=" float: left;">
+
+					<% if(pageID!='home'){ %>
+						<%= item.summary %>
+							<% } %>
+				</p>
+			</dd>
+		</dl>
+		<% }) %>
+</article>
